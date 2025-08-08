@@ -52,3 +52,35 @@ Dependency Inversion Principle (DIP): módulos de alto nível não devem depende
 
 A aplicação dos princípios SOLID contribui significativamente para a construção de sistemas com alta coesão e baixo acoplamento, características essenciais para a manutenção, evolução e escalabilidade de projetos de software.
 
+<!-- Aula 3 - 07/08 -->
+
+S ingle responsability Principie
+O pen/close principie
+L iskow substitution principie
+I nterface segregation principie
+D ependency inversion principie
+
+1- Princípio da Responsabilidade Única
+
+Esse princípio é uma aplicação direta da ideia de coesão
+
+Entity <-- Dados
+Repository <-- JPA spring data
+Services <-- Lógica(use cases)
+Controller <-- Api rest
+
+Seta de Herança - Seta com ponta vazada (aberta) e linha contínua
+Seta de Variável - Seta com ponta fechada e linha contínua
+Seta de Interface - Seta com ponta vazada (aberta) e linha tracejada
+Seta de Associação - Seta com ponta fechada e linha tracejada
+
+quando criamos uma interface, ela deve ser específica para um propósito, e não obrigar as classes que a implementam a fornecer métodos inúteis para elas.
+
+Benefícios
+Flexibilidade — cada tipo implementa só o que precisa.
+
+Manutenção mais fácil — mudanças numa interface afetam menos classes.
+
+Menos código morto — não há métodos vazios só “para cumprir contrato”.
+
+
