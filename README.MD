@@ -125,6 +125,8 @@ Princípio de Substituição de Liskov (LSP)
 
 <!-- Aula 6 - 18/08 -->
 
+O que é um método estático?
+    É um método que é carregado na memória antes de qualquer coisa
 
 
 
