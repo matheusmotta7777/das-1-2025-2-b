@@ -83,4 +83,49 @@ Manutenção mais fácil — mudanças numa interface afetam menos classes.
 
 Menos código morto — não há métodos vazios só “para cumprir contrato”.
 
+<!-- Aula 4 - 11/08 -->
+
+Aula 11/08
+Princípio de Inversão de Dependências
+
+Esse princípio recomenda que uma classe cliente deve estabelecer dependências pioritariamente com abstrações e com implementações concretas
+
+Os controladores precisam de uma dependência, no caso, interfaces de serviço e não com a implementação concreta, ou seja, service impl
+
+O cliente não "conversa" diretamente com o código, ele aguarda em uma interface pela resposta do código
+
+Prefira Composição a Herança
+
+Existem dois tipos de herança:
+
+Herança de classes: envolve reúso de código (deve ser evitada).
+
+Herança de interfaces: Permite que uma interface herde de outras interfaces, estabelecendo um conjunto de métodos que devem ser implementados por classes que implementam a interface derivada
+
+Ao invés de se utilizar heranças o ideal é se utilizar associações, heranças tendem a introduzir problemas na manutenão e evolução de classes de um sistema.
+
+Heranças só podem ser utilizada se as subclasses nunca irão se juntar, exemplo um "gato" não pode ser um "cachorro" portanto pode se utilizar heranças.
+
+Princípio de Demeter ou Menor Conhecimento
+
+Um método deve invocar somentes os seguintes outros métodos:
+
+1- de sua própria classe 2- de objetos passados como parâmetros 3- de objetos criados pelo próprio métodos 4- de atributos da classe do método
+
+Princípio Aberto/Fechado
+
+Uma classe deve estar fechada para modificações e aberta para extensões
+
+<!-- Aula 5 - 14/08 -->
+
+Princípio de Substituição de Liskov (LSP) 
+    Herança define uma relação *é-um* entre objetos de uma classe base e objetos de subclasses.  
+  Quando se tem uma herança, subclasses precisam dos mesmos métodos que o pai.
+    Substitui um filho por outro, sem ter perda.
+
+<!-- Aula 6 - 18/08 -->
+
+
+
+
 
