@@ -1,15 +1,23 @@
 package br.univille.singleton;
 
 public class Singleton {
-    //parece uma variavel global
+    //parace com uma variável global
     private static Singleton instance;
+    private String segredo;
 
+    public String getSegredo() {
+        return segredo;
+    }
+    public void setSegredo(String segredo) {
+        this.segredo = segredo;
+    }
     private Singleton(){
-        //ninguem pode instanciar, só ela mesma
-
+        System.out.println("Singleon: Construtor");
     }
     public static Singleton getInstance(){
-        if (instance ==null){
+        System.out.println("Singleon: getInstance");
+        if (instance == null){
+            System.out.println("Singleon: NEW");
             instance = new Singleton();
         }
         return instance;
