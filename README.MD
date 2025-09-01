@@ -128,6 +128,57 @@ Princípio de Substituição de Liskov (LSP)
 O que é um método estático?
     É um método que é carregado na memória antes de qualquer coisa
 
+<!-- Aula 7 - 28/08 -->
 
+
+A estrutura escolhida serve para suportar o que for colocado no código
+
+"Arquitetura é sobre algo importante… seja lá o que for." — Ralph Johnson
+
+Características de Arquitetura = Requisitos não funcionais
+
+#Decisões de Arquitetura
+
+O arquiteto escolhe a tecnologia para a qual possui maior expertise. Essas decisões determinam as diretrizes para a construção do sistema.
+
+#Princípios de Design
+
+Um dos principais princípios é evitar o acoplamento excessivo entre componentes.
+
+Além disso, para melhorar o desempenho em arquiteturas baseadas em microserviços, as equipes de desenvolvimento devem adotar comunicação assíncrona entre os serviços.
+
+<!-- Aula 8 - 01/09 -->
+
+
+#Existem oito expectativas principais para um arquiteto de software
+
+-Tomar decisões de arquitetura
+
+-Analisar continuamente a arquitetura
+
+-Manter-se atualizado com as últimas tendências
+
+-Assegurar a conformidade com as decisões
+
+-Exposição e experiência diversificadas
+
+-Ter conhecimento sobre o domínio do negócio
+
+-Ter habilidades interpessoais
+
+-Entender e lidar bem com questões políticas
+
+#​Decisões de arquitetura
+
+-​Arquiteto deve orientar, um arquiteto deve orientar, não especificar as escolhas da tecnologia.
+
+#​Atualizar continuamente a arquitetura
+​-Um arquiteto deve analisar continuamente a arquitetura e o ambiente de tecnologia atual, para então recomendar soluções de melhorias.
+​-Pensar nas evoluções, não acumular, conhecer as tendências.
+-​Padronização do sistema.
+
+#Devops
+
+Planejar -> Criar -> Integração -> Implantar -> operar -> Comentários Contínuos -> Planejar... 
 
 
