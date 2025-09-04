@@ -181,4 +181,15 @@ Além disso, para melhorar o desempenho em arquiteturas baseadas em microserviç
 
 Planejar -> Criar -> Integração -> Implantar -> operar -> Comentários Contínuos -> Planejar... 
 
+<!-- Aula 9 - 04/09 -->
+
+1- Resuma a diferençca entre: Arquitetura e Design
+
+A arquitetura de software representa a visão macro de um sistema, sendo responsável por definir sua estrutura geral, os principais componentes e a forma como eles se relacionam. Cabe ao arquiteto analisar os requisitos de negócio, identificar os atributos arquiteturais relevantes, como desempenho, segurança e escalabilidade, além de selecionar os padrões e estilos arquiteturais mais adequados ao domínio do problema. Já o design de software se concentra na visão detalhada e prática dessa estrutura, sendo papel do desenvolvedor elaborar diagramas de classes para os componentes, projetar interfaces de usuário e implementar o código-fonte. Assim, enquanto a arquitetura fornece as bases estratégicas e conceituais, o design traduz essas decisões em soluções técnicas concretas. No entanto, não existe uma linha rígida que separa arquitetura e design, uma vez que ambos se integram de forma contínua e evolutiva dentro do ciclo de vida de um projeto de software.
+
+2- Como é a formação do conhecimento de um arquiteto modelo T?
+
+A pirâmide mostrada no livro mostra um jeito simples de entender como o conhecimento é formado e evolui. Na base está aquilo que você nem sabe que não sabe, os pontos cegos, os temas que ainda não foram descobertos. No meio, vem o que você sabe que não sabe, ou seja, as lacunas de aprendizado já reconhecidas e que podem ser trabalhadas. No topo está o que você sabe de fato, o conhecimento já consolidado e pronto para ser usado.
+
+Trazendo isso para a realidade de um arquiteto de software, a pirâmide ajuda a lembrar que o aprendizado não é só sobre acumular informações, mas também sobre reconhecer limitações e buscar expandir horizontes. O que ele sabe forma a base do seu trabalho; o que ele sabe que não sabe guia seus estudos; e o que ele ainda não sabe que não sabe exige curiosidade e abertura para descobrir. É esse ciclo que permite ao arquiteto crescer, equilibrando uma visão ampla com profundidade técnica e colaborando melhor com os desenvolvedores.
 
