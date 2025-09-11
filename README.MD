@@ -193,3 +193,8 @@ A pirâmide mostrada no livro mostra um jeito simples de entender como o conheci
 
 Trazendo isso para a realidade de um arquiteto de software, a pirâmide ajuda a lembrar que o aprendizado não é só sobre acumular informações, mas também sobre reconhecer limitações e buscar expandir horizontes. O que ele sabe forma a base do seu trabalho; o que ele sabe que não sabe guia seus estudos; e o que ele ainda não sabe que não sabe exige curiosidade e abertura para descobrir. É esse ciclo que permite ao arquiteto crescer, equilibrando uma visão ampla com profundidade técnica e colaborando melhor com os desenvolvedores.
 
+
+<!-- Aula 10 - 08/09 -->
+
+Na arquitetura não existe certou ou errado existe compensações, existe modelo por topico aonde existe assinantes que recebem a mensagem que desejam e os publicadores que mandam ela se tornando observadores do topico e recebendo a mensagem, a utilização da nuvem posssibilita a alta disponibilidade do topico onde funciona como uma notificação de algum evento sendo quem envia e voce o destinatario final, existi outras maneiras tambem dese utilizar um broken utilizando o sistema de filas tambem para manter a ordem, mantendo uma diferença distribuindo mais vezes as mensagem, onde tem uma fila para cada instancia, mantendo mais copias onde á armazena estas menssagens e as distribui posteriormente, no topico existe variação de que ele tera que distribuir em mais vezes e já na fila existe um maior acoplamento nas menssagens já que ele vai estar dependendo de uma instancia anterior para estar recebendo as informações, existindo um trade off nas trocas de mensagens não possuindo um certo ou um errado depende da aplicabilidade para o seu sistema.
+
